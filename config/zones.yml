@@ -1,0 +1,20 @@
+zone0:
+  name: software
+  frame_id: map
+  threshold: -100
+  polygon: [0, 0, 0,
+            0, 7, 0,
+            5, 7, 0,
+            5, 0, 0]
+  beacon0:
+    EID: 00124B00090593E6
+    position: [0.25, 3.06, 1.8]
+  beacon1:
+    EID: 00124B00050CD41E
+    position: [4.99, 2.11, 1]
+  beacon2:
+    EID: 00124B00090594E1
+    position: [1.96, 0.25, 1.77]
+  beacon3:
+    EID: 00124B00050CD283
+    position: [4.99, 4.5, 1]
