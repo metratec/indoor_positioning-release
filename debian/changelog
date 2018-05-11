@@ -1,0 +1,7 @@
+ros-kinetic-ros-ips (1.0.1-0jessie) jessie; urgency=high
+
+  * First public release for kinetic
+
+ -- Christian Arndt <arndt@metratec.com>  Thu, 10 May 2018 22:00:00 -0000
+
+
