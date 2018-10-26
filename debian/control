@@ -1,0 +1,13 @@
+Source: ros-kinetic-indoor-positioning
+Section: misc
+Priority: extra
+Maintainer: Christian Arndt <arndt@metratec.com>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, python-scipy, python-serial, python-yaml, ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-indoor-positioning
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, python-scipy, python-serial, python-yaml, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: This is a ROS package for the metraTec Indoor Positioning System.
+ You can use the regular IPS for zone location of your robot or the IPS+ products for 3D-position-estimation using UWB ranging.
